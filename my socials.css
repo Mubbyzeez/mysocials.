@@ -1,0 +1,32 @@
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+
+body{
+    background-color: yellow;
+}
+h1{
+    background-color: red;
+    height: 10vh;
+    color: black;
+}
+
+p {
+    color: black;
+    animation: pointdown 1000ms infinite alternate-reverse;
+    
+}
+
+@keyframes pointdown {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+.about-list{
+    list-style: none;
+}
